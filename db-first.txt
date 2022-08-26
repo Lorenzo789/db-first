@@ -16,7 +16,7 @@ body_type - VARCHAR(20) - NULL
 colour - VARCHAR(15) - NOTNULL
 outfitting - VARCHAR(30) - NULL 
 parking_assistant - boolean - TINYINT
-bluetooth - VARCHAR(20) - boolean - TINYINT
+bluetooth - boolean - TINYINT
 air_conditioning - VARCHAR(10) - NULL
 electric_seat_adjustment - boolean - TINYINT
 central_display - boolean - TINYINT
@@ -28,4 +28,4 @@ warranty - TINYINT - NULL - DEFAULT(0)
 price - INT - NOTNULL -
 tax_disc - MEDIUMINT - NULL - 
 insurance - MEDIUMINT - NULL -
-chassis_number - VARCHAR(20) - NOTNULL - UNIQUE -
+chassis_number - VARCHAR(20) - NOTNULL - UNIQUE
