@@ -6,9 +6,22 @@ Table_Name: UsedCars
 id - INT - PRIMARY_KEY - UNIQUE - AUTO_INCREMENT - NOTNULL
 brand - VARCHAR(30) - NOTNULL -
 model - VARCHAR(30) - NOTNULL -
-year - YEAR - NOTNULL -
-outfitting - VARCHAR(30) - NULL -
-optional - VARCHAR(100) - NULL -
+year - YEAR - NOTNULL 
+gears - VARCHAR(20) - NULL
+engine - VARCHAR(20) - NOTNULL
+c02_emissions - TINYINT - NOTNULL
+doors - TINYINT - NULL
+seats - TINYINT - NULL
+body_type - VARCHAR(20) - NULL
+colour - VARCHAR(15) - NOTNULL
+outfitting - VARCHAR(30) - NULL 
+parking_assistant - boolean - TINYINT - NULL
+bluetooth - VARCHAR(20) - boolean - TINYINT - NULL
+air_conditioning - boolean - TINYINT - VARCHAR(10) - NULL
+seat_adjustment - boolean - TINYINT - VARCHAR(10) - NULL
+central_display - boolean - TINYINT - NULL
+adaptive_highbeam - boolean - TINYINT - NULL
+panoramic_sliding_sunroof - boolean - TINYINT - NULL
 fuel - VARCHAR(30) - NOTNULL
 average_consumption - MEDIUMINT - NULL
 warranty - TINYINT - NULL - DEFAULT(0)
