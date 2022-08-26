@@ -18,7 +18,7 @@ outfitting - VARCHAR(30) - NULL
 parking_assistant - boolean - TINYINT - NULL
 bluetooth - VARCHAR(20) - boolean - TINYINT - NULL
 air_conditioning - VARCHAR(10) - NULL
-electric_seat_adjustment - boolean - TINYINT - VARCHAR(10) - NULL
+electric_seat_adjustment - boolean - TINYINT
 central_display - boolean - TINYINT
 adaptive_highbeam - boolean - TINYINT
 panoramic_sliding_sunroof - boolean - TINYINT
