@@ -1,0 +1,18 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario
+
+
+Nome_Tabella: UsedCars
+
+id
+brand
+model
+year
+outfitting
+optional
+fuel
+average_consumption
+warranty
+price
+tax_disc
+insurance
+chassis_number
