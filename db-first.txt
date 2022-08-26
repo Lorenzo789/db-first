@@ -1,18 +1,18 @@
 Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario
 
 
-Nome_Tabella: UsedCars
+Table_Name: UsedCars
 
-id
-brand
-model
-year
-outfitting
-optional
-fuel
-average_consumption
-warranty
-price
-tax_disc
-insurance
-chassis_number
+id - INT - PRIMARY_KEY - UNIQUE - AUTO_INCREMENT - NOTNULL
+brand - VARCHAR(30) - NOTNULL -
+model - VARCHAR(30) - NOTNULL -
+year - YEAR - NOTNULL -
+outfitting - VARCHAR(30) - NULL -
+optional - VARCHAR(100) - NULL -
+fuel - VARCHAR(30) - NOTNULL
+average_consumption - MEDIUMINT - NULL
+warranty - TINYINT - NULL - DEFAULT(0)
+price - INT - NOTNULL -
+tax_disc - MEDIUMINT - NULL - 
+insurance - MEDIUMINT - NULL -
+chassis_number - VARCHAR(20) - NOTNULL - UNIQUE -
