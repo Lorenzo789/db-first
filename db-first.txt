@@ -15,8 +15,8 @@ seats - TINYINT - NULL
 body_type - VARCHAR(20) - NULL
 colour - VARCHAR(15) - NOTNULL
 outfitting - VARCHAR(30) - NULL 
-parking_assistant - boolean - TINYINT - NULL
-bluetooth - VARCHAR(20) - boolean - TINYINT - NULL
+parking_assistant - boolean - TINYINT
+bluetooth - VARCHAR(20) - boolean - TINYINT
 air_conditioning - VARCHAR(10) - NULL
 electric_seat_adjustment - boolean - TINYINT
 central_display - boolean - TINYINT
